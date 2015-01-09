@@ -14,9 +14,14 @@ div.highlight pre {
 .btn.xsmall {
   padding: 1px 3px 1px;
   font-size: 11px;
+  display: inline;
 }
 
-.summary * { display: inline; }
+.summary p a {
+    display: inline;
+}
+
+.summary * { display: inherit; }
 .summary pre { display: none; }
 
 .social a[href*='activestate.com']:before {content: url('./images/icons/activestate.png'); margin-right: 2px; vertical-align: -3px;}
